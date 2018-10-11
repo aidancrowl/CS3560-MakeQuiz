@@ -1,3 +1,10 @@
+/**
+* @file tarray.h
+* @brief Defines and implements Tarray class
+* @author Matthew Aberegg
+*/
+
+
 /*********************************************************************
 	This is a class to introduce you to the syntax of working with 
 	template classes. Notice that the type being stored is completely

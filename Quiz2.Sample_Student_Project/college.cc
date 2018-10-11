@@ -1,3 +1,10 @@
+/**
+* @file college.cc
+* @brief Implements college class
+* @author Matthew Aberegg
+*/
+
+
 //********************
 //Matthew Aberegg
 //Project 3
@@ -69,6 +76,12 @@ College& College::operator =(const College& other){
 	return * this;
 }
 
+/**
+* @brief Adds a course to the container
+* @param c - a referenced course object
+* @return nothing
+*/
+
 void College::add(course& c){
 	node * previous;
 	node * cursor;
@@ -107,6 +120,12 @@ void College::add(course& c){
 	}
 }
 
+/**
+* @brief Removes a course from the container
+* @param coursename - a string
+* @return nothing
+*/
+
 void College::remove(std::string coursename){
 	node * previous;	
 	node * cursor;
@@ -128,6 +147,12 @@ void College::remove(std::string coursename){
 }
 }
 }
+
+/**
+* @brief Displays course container to the screen
+* @param outs - a referenced stream object
+* @return nothing
+*/
 
 void College::display(std::ostream& outs){
 	node * ptr;

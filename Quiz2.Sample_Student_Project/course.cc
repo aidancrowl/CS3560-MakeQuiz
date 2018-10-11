@@ -1,3 +1,10 @@
+/**
+* @file course.cc
+* @brief Implements course class 
+* @author Matthew Aberegg
+*/
+
+
 /***********************************************************************
 	The implementation file for course.h, which describes a college
 	course.

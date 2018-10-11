@@ -1,3 +1,10 @@
+/**
+* @file node.h
+* @brief Defines and implements node class
+* @author Matthew Aberegg
+*/
+
+
 /*************************************************************************
       This file is borrowed heavily from Main/Savitch "Data Structures and
       Other Object Using C++," Chapter 5. It features a node class that 
